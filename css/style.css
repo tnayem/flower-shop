@@ -41,10 +41,12 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-.banner .banner-text *{
+
+.banner .banner-text * {
     margin-bottom: 32px;
     max-width: 531px;
 }
+
 .banner .banner-text h1 {
     color: #272727;
     font-family: Lato;
@@ -53,7 +55,73 @@ header {
     font-weight: 800;
     line-height: normal;
 }
-.banner .banner-img img{
+
+.banner .banner-img img {
     width: 100%;
     vertical-align: middle;
 }
+
+/* featured section start */
+#featured {
+    padding: 100px 0;
+}
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.section-content .flower p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+    padding: 15px 0;
+}
+
+.section-content .flower .flower-img {
+    border-radius: 300px 300px 0px 0px;
+    min-height: 450px;
+    padding: 30px 15px 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-content .flower .flower-img img {
+    max-width: 310px;
+
+}
+
+.section-content .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .green {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* featured section end */
