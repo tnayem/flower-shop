@@ -170,11 +170,7 @@ header {
 }
 /* Hot deal section end */
 /* Instragram section start */
-.instragram-text{
-    text-align: center;
-    max-width: 594px;
-    margin: 0 auto;
-}
+
 .instragram-img{
     display: flex;
     justify-content:center;
@@ -190,3 +186,28 @@ header {
     height: 100%;
 }
 /* Instragram section end */
+/* News Latter section start */
+.news-latter{
+    margin: 128px 0;
+}
+.news-latter-main{
+    background-image: url("../images/Rectangle\ 9.png");
+    padding: 122px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news-latter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+.news-latter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+/* News Latter section end */
