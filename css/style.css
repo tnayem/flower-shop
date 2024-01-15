@@ -169,3 +169,24 @@ header {
     max-width: 550px;
 }
 /* Hot deal section end */
+/* Instragram section start */
+.instragram-text{
+    text-align: center;
+    max-width: 594px;
+    margin: 0 auto;
+}
+.instragram-img{
+    display: flex;
+    justify-content:center;
+    gap: 24px;
+    margin-top: 40px;
+}
+.my-img{
+    max-width: 342px;
+    max-height: 396px;
+}
+.my-img img{
+    width: 100%;
+    height: 100%;
+}
+/* Instragram section end */
